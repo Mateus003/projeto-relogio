@@ -10,21 +10,21 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #333;
+    background-color: rgba(101, 85, 65, 0.501);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    color: #FFF;
+    color: rgb(0, 0, 0);
     margin-bottom: 20px;
 }
 
 .relogio {
     width: 300px;
     height: 300px;
-    border: 5px solid #FFF;
+    border: 5px solid rgb(0, 0, 0);
     border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgb(255, 255, 255);
 }
 
 .riscos {
@@ -45,7 +45,7 @@ h1 {
 .risco .ponto {
     width: 15px;
     height: 100%;
-    background-color: #FFF;
+    background-color: rgb(0, 0, 0);
 }
 
 .ponteiros {
@@ -70,30 +70,30 @@ h1 {
 .p_m {
     width: 120px;
     height: 7px;
-    background-color: #FFF;
+    background-color: rgb(0, 0, 0);
 }
 .p_h {
     width: 70px;
     height: 10px;
-    background-color: #FFF;
+    background-color: rgb(0, 0, 0);
 }
 .encaixe {
     width: 20px;
     height: 20px;
-    background-color: #FFF;
+    background-color: rgb(0, 0, 0);
     border-radius: 50%;
     position: absolute;
     margin-top: -5px;
     margin-left: -5px;
 }
 .digital {
-    color: #FFF;
+    color: rgb(2, 2, 2);
     font-size: 40px;
     margin-top: 20px;
 }
 
 footer {
     margin-top: 20px;
-    color: #FFF;
+    color: rgb(4, 4, 4);
     font-size: 13px;
 }
