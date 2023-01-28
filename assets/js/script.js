@@ -17,10 +17,12 @@ const updateClock =()=>{
     var minutes = date.getMinutes();
     var seconds = date.getSeconds();
     digital.innerText = `${fixZero(hours)}:${fixZero(minutes)}:${fixZero(seconds)}`;
+    
+    let secondsDeg = (360/60)*seconds -90;    
+    
+    let minutesDeg = (360/60)*(minutes + (seconds/60)) - 90;
 
-    let secondsDeg = (360/60)*seconds -90;
-    let minutesDeg = (360/60)*minutes -90;
-    let hoursDeg = (360/12)*hours -90;
+    let hoursDeg = (360/12)*(hours + (minutes/60)) - 90;
 
     pointerSeconds.style.transform = `rotate(${secondsDeg}deg)`;
     pointerMinutes.style.transform = `rotate(${minutesDeg}deg)`;
