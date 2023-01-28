@@ -1,2 +1,2 @@
 # projeto-relogio
-Projeto feito com conhecimentos adquiridos no curso B7Web. A idéia do projeto é criar um sistema que simula um relógio análogico e digital. 
+Projeto feito com conhecimentos adquiridos no curso B7Web. A ideia do projeto é criar um simulador de relógio análogico e digital de forma intuitiva.
